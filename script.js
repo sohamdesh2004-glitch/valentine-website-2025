@@ -6,7 +6,7 @@ function validateConfig() {
     const warnings = [];
 
     // Check required fields
-    if (!config.valentineName) {
+    if (!config.AASHU) {
         warnings.push("Valentine's name is not set! Using default.");
         config.valentineName = "My Love";
     }
